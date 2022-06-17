@@ -10,3 +10,6 @@
     Atributo src: O caminho ou link da imagem;
     Atributo alt: É um atributo para adicionar uma legenda a imagem para 
                   caso a imagem não carregue ou também para acessibilidade;
+<ul><\ul> Lista em que a ordem dos elementos não importão
+<ol><\ol> Lista em que a ordem dos elementos importão
+<li><\li> É um item de uma lista
