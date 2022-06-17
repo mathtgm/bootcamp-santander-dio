@@ -2,3 +2,11 @@
 <h2></h2> Título de seção
 <h3></h3> Título de artigo
 <p></p> Conteúdo do artigo
+<a></a> Ancora/Link
+    Atributo href: É um hiperlink para aonde a ancora está apontando;
+    Atributo target: Indicai como link será aberto;
+        valor "_blank": Abrirá uma janela em branco;
+<img> Elemento de imagem
+    Atributo src: O caminho ou link da imagem;
+    Atributo alt: É um atributo para adicionar uma legenda a imagem para 
+                  caso a imagem não carregue ou também para acessibilidade;
