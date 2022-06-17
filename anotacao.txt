@@ -1,0 +1,5 @@
+Template para README no github:
+https://github.com/iuricode/readme-template
+
+Guia de Markdown (.md):
+markdownguide.org
