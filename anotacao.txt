@@ -3,3 +3,6 @@ https://github.com/iuricode/readme-template
 
 Guia de Markdown (.md):
 markdownguide.org
+
+Lista de icones de IDEs, Liguagens de progrmação para adicionar no README:
+https://raw.githubusercontent.com/progfay/shields-with-icon/master/README.md
