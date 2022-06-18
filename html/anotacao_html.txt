@@ -13,3 +13,7 @@
 <ul><\ul> Lista em que a ordem dos elementos não importão
 <ol><\ol> Lista em que a ordem dos elementos importão
 <li><\li> É um item de uma lista
+
+# Atributo "id" de elementos só pode ser utilizado uma vez
+
+# Box Model é a caixa em que o elemento de HTML está e é definidi por margin, border, padding e conteudo do elemento
