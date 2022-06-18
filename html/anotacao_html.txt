@@ -17,3 +17,34 @@
 # Atributo "id" de elementos só pode ser utilizado uma vez
 
 # Box Model é a caixa em que o elemento de HTML está e é definidi por margin, border, padding e conteudo do elemento
+
+# Flex Box
+    #Flex Container
+    (div, span, h1, h2 ...)
+        - display
+            inicializador do Container
+        - flex-direction
+            Define a direção dos itens como linha ou coluna
+        - flex-wrap
+            Define a quebra de linha ou não
+        - flex-flow
+            Abreviação para o flex-wrap e flex-direction
+        - justify-content
+            Alinha os itens de um container de acordo com a direção
+        - align-items
+            Alinha os itens de acordo com o eixo do container
+        - align-content
+            Alinha as linhas do container
+    # Flex item
+        - flex-grow
+            Define o fator de crescimento
+        - flex-basis
+            Define o tamanho inicial do item antes da distribuição do espaço restante de um container
+        - flex-shrink
+            Define a capacidade de redução do item
+        - flex
+            Abreviação das três propiedades anteriores(flex-grow, flex-basis, flex-shrink)
+        - order
+            Ordem de distribuição ou listagem dos itens
+        - align-self
+            Define o alinhamento especifico de um item dentro do container
