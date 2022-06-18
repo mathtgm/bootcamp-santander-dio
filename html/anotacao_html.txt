@@ -16,7 +16,7 @@
 
 # Atributo "id" de elementos só pode ser utilizado uma vez
 
-# Box Model é a caixa em que o elemento de HTML está e é definidi por margin, border, padding e conteudo do elemento
+# Box Model é a caixa em que o elemento de HTML está e é definido por margin, border, padding e conteudo do elemento
 
 # Flex Box
     #Flex Container
@@ -31,10 +31,30 @@
             Abreviação para o flex-wrap e flex-direction
         - justify-content
             Alinha os itens de um container de acordo com a direção
+                > flex-start irá alinha os item no inicio do container
+                > flex-end irá alinha os itens para o final do container respeitando o limite do mesmo
+                > center irá centralizar todos o itens no meio do container
+                > space-between todos os itens terão um espeçamento igual entre eles
+                OBS: Essa propriedade irá pegar o primeiro item e alinhar bem próximo a borda do container
+                a mesma coisas irá acontecer para o ultimo item
+                > space-around os espaçamentos do meio são duas vezes maiores que o inicial e final.
         - align-items
             Alinha os itens de acordo com o eixo do container
+                > center alinhaentos dos itens ao centro
+                > stretch padrão, os flex itens cresçam igualmente
+                > fles-start alinhamento dos itens no inicio
+                > flex-end alinhamento dos itens no final
+                > baseline alinhamento de acordocom a linha base da tipografia dos itens
         - align-content
             Alinha as linhas do container
+                ! O container deve ter quebra de linhas e a altura do container seja maior que a soma das linhas dos itens
+                > center alinhamento dos itens ao centro
+                > stretch é o padrão e os flex itens crescem igualmente
+                > flex-start alinhamento dos itens no inicio
+                > flex-end alinhamento dos itens no final
+                > space-between cria um espeçamento igual entre os elementos
+                > space-around os espeçamentos do meio são duas vezes maiores que o inicial e final
+
     # Flex item
         - flex-grow
             Define o fator de crescimento
