@@ -1,0 +1,8 @@
+Caracteristicas do JavaScript 
+- Linguagem interpretada(Rodada em tempo real).
+- Multiparadigma (Orientação a Objeto ou programação funcional).
+- É comum ser usado para aplicações WEB de Client-Side
+- Segue o padrão ECMAScript (Conjunto de normas).
+
+Valores do tipo var podem ser alterados
+Valores do tipo const não podem ser alterados
