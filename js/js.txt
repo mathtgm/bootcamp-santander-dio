@@ -4,5 +4,131 @@ Caracteristicas do JavaScript
 - É comum ser usado para aplicações WEB de Client-Side
 - Segue o padrão ECMAScript (Conjunto de normas).
 
-Valores do tipo var podem ser alterados
-Valores do tipo const não podem ser alterados
+Tipos de dados
+- Valores do tipo var podem ser alterados
+- Valores do tipo const não podem ser alterados
+
+NodeJS é um framework de JavaScript.
+
+"Assets" são os artificios do seu projeto como imagens, css, javascript e etc.
+
+DOM - Document Object Model
+
+Operadores de atribuição
+Operador      Exemplo          Equivalente
+=             x = y            x = y
++=            x += y           x = x + y
+*=            x *= y           x = x * y
+/=            x /= y           x = x / y
+%=            x %= y           x = x % y
+
+Aritimética
++   Soma
+-   Subtração
+*   Multiplicação
+**  Exponencial
+/   Divisão
+%   Módulo
+++  Incrementar
+--  Decrementar
+
+Comparação
+==      Igual a
+===     Mesmo valor e mesmo tipo
+!=      Diferente
+!==     Valor e tipos diferentes
+>       Maior que
+<       Menor que
+>=      Maior ou igual
+<=      Menor ou igual
+
+Lógica
+&&  "e" lógico
+||  "ou" lógico
+!   "não" lógico
+
+Condicional
+Simbolo       Estrutura
+?             condição ? expressao1 : expressao2
+
+Constante(const) deve ser declarada em Snake Upper Case (SNAKE_UPPER_CASE)
+
+Funções autoinvocaveis
+IIFE(Immediately Invoked Function) é uma função anônima entre parêntese,
+seguida por outro par de parênteses, que representa sua chamada.
+
+Funções Callbacks
+Uma função passada como argumento para outra.
+
+Objeto "arguments" é um array com todos os parêmetros passados quando a
+função foi invocada.
+
+Spread
+uma forma de lidar separamente com elementos de uma array
+
+Rest
+uma forma de agrupar com os argumentos de uma função.
+
+Object Destructuring
+Entre chaves{} podemos filtrar apenas os dados que nos interessam em um objeto.
+
+Diferença entre Map e Objeto
+- Maps podem ter chaves de qualquer tipo;
+- Maps possuem a propriedade length;
+- Maps são mais fácies de iterar;
+- Utilizado quando o valor das chaves é desconhecido;
+- Os valores tem o mesmo tipo;
+
+Set's são estruturas que armazenam apenas valores únicos!
+
+Diferença entre Set e array
+- Possui valores únicos;
+- Em vez de propriedade length, consulta-se o número de registro pela propriedade size;
+- Não possui os métodos map, filter, reduce e etc.
+
+Método Map
+- Cria um nova array
+- Não modifica o array original
+- Realiza as operações em ordem para cada elemento.
+
+array.map(callback, thisArg)
+Callback: função a ser executada em cada elemento.
+    Essa função permite acessar o item, o index e também o array original.
+thisArg(opcional): valor 'this' dentro da função de callback
+
+Método filter
+Pegará todos os itens de um array e criará um novo com os itens que corresponderem a condição aplicada a cada um.
+- Cria um novo array
+- Não modifica o array original
+
+array.filter(callback, thisArg)
+Callback: função a ser executada em cada elemento.
+    Essa função permite acessar o item, o index e também o array original.
+thisArg(opcional): valor 'this' dentro da função de callback
+
+Exemplo:
+const frutas = ['maçã fuji, 'maçã verde', 'laranja', 'abacaxi']
+
+frutas.filter((fruta) => fruta.includes('maça'))
+
+Retorno esperado: ['maçã fuji, 'maçã verde']
+
+Método reduce
+- Execute uma função em todos os elementos do array, retornando um valor único.
+
+array.reduce(callbackFn, initialValue);
+Callback: Função a ser executada a partir do acumulador.
+initialValue: valor sobre o qual o retorno final irá atuar.
+
+Exemplo: 
+const callbackFn = function(accumulator, currentValue, index, array) {}
+
+array.reduce(callbackFn, initialValue)
+
+Accumulator/prevValue: acumulador de todas as chamadas de callbackFn
+currentValue: elemento atual sendo acessado pela função.
+
+O que é o DOM?
+O DOM HTML é um padrão de como acessar e modificar os elementos HTML de uma página.
+
+BOM (Browse Objetc Model)
